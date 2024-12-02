@@ -1,0 +1,19 @@
+{
+  "name": "advent24",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "next": "bun run utils/create.ts",
+    "latest": "bun run utils/runLatest.ts",
+    "day": "bun run utils/runDay.ts",
+    "all": "bun run utils/runAll.ts",
+    "check": "bun run utils/checkMissing.ts",
+    "tidy": "bunx prettier --write ."
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
